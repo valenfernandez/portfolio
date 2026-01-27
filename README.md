@@ -1,5 +1,7 @@
 # Portfolio
 
+Live Site: https://valenfernandez.github.io/portfolio/
+
 Personal portfolio website built with **React** and **Vite**.
 
 This project showcases my professional experience, technical skills, and selected projects, and serves as a central place to share my work and background as a Software Engineer.
