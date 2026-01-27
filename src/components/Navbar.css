@@ -1,0 +1,35 @@
+nav {
+  position: fixed;
+  top : 0;
+  left: 0;
+  right: 0;      
+  width: 100vw; 
+  height: 64px;
+  transition: 
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    backdrop-filter 0.3s ease;
+ z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.nav--transparent {
+  background-color: transparent;
+}
+
+.nav--solid {
+  background-color: rgba(41, 10, 61, 0.85);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
