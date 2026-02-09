@@ -1,14 +1,14 @@
 export const projects = [
   {
     title: "OlympIA",
-    description: "NLP system for classifying text messages.",
+    description: "OlympIA is an AI-powered system designed to assist public prosecutors in processing messages from victims of gender-based violence. The platform uses NLP techniques to automatically classify, prioritize, and extract key information from incoming messages, significantly reducing manual workload and response times.",
     long_description: "",
     tech: ['AI', 'Data', 'Python', 'Spacy', 'Redis'],
     repo: "https://github.com/valenfernandez/OlympIA"
   },
   {
     title: "SUR-GEN",
-    description: "Management system for gender violence records",
+    description: "SUR-GEN is a case management system developed for the Necochea prosecutor’s office to support the structured handling of gender-based violence records. The platform centralizes victim information, case histories, and relevant metadata, enabling prosecutors to manage cases more efficiently and consistently.",
     long_description: "",
     tech: ['Python', 'Django', 'SQL'],
     repo: "https://github.com/valenfernandez/SURGEN"
