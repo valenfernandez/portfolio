@@ -94,19 +94,26 @@ button:focus-visible {
 }
 
 .project-grid {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .project-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   border: 1px solid #865db6;
   border-radius: 8px;
-  background-color: #330442;
+ 
   color: inherit;
   text-decoration: none;
+
+   background: linear-gradient(
+    180deg,
+    rgba(88, 28, 135, 0.85),
+    rgba(46, 10, 66, 0.9)
+  );
 
   transition:
     transform 0.25s ease,
@@ -116,6 +123,36 @@ button:focus-visible {
 .project-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.project-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.project-card p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tech span {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  white-space: nowrap;
 }
 
 .section {

@@ -8,7 +8,11 @@ function ProjectCard({ title, description, tech, repo }) {
     >
       <h3>{title}</h3>
       <p>{description}</p>
-      <span>{tech}</span>
+      <div className="tech">
+        {tech.map(t => (
+          <span key={t}>{t}</span>
+        ))}
+      </div>
     </a>
   );
 }

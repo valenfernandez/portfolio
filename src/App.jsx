@@ -17,8 +17,8 @@ function App() {
       <StarsBackground/>
       <Hero/>
       <Skills/>
-      <Projects/>
       <Experience/>
+      <Projects/>
       <Contact/>
     </>
   )
