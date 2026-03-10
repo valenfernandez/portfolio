@@ -8,7 +8,7 @@ export const projects = [
   },
   {
     title: "SUR-GEN",
-    description: "SUR-GEN is a case management system developed for the Necochea prosecutor’s office to support the structured handling of gender-based violence records. The platform centralizes victim information, case histories, and relevant metadata, enabling prosecutors to manage cases more efficiently and consistently.",
+    description: "SUR-GEN is a case management system developed for the Necochea prosecutor's office to support the structured handling of gender-based violence records. The platform centralizes victim information, case histories, and relevant metadata, enabling prosecutors to manage cases more efficiently and consistently.",
     long_description: "",
     tech: ['Python', 'Django', 'SQL'],
     repo: "https://github.com/valenfernandez/SURGEN"
@@ -21,11 +21,11 @@ export const projects = [
     repo: "https://github.com/valenfernandez/GalaxyMorphology"
   },
   {
-    title: "AI Decision Support Agent for IAM Access Requests (Accenture)",
-    description: "Designed and implemented an AI-driven decision support system to automate enterprise access request evaluations using NLP and supervised learning.",
-    long_description: "",
-    tech: ["NLP", "LLMs", "Copilot Studio"],
-    repo: ""
+    title: "Biometric Face Analysis System",
+    description: "Web application for facial comparison, landmark detection, and face clustering using deep learning embeddings.",
+    long_description: "A full-stack computer vision application that analyzes facial images using deep learning embeddings. Users can compare faces, visualize facial landmarks, and cluster multiple images based on biometric similarity. Built with a React frontend and FastAPI backend to demonstrate modern face recognition workflows.",
+    tech: ["Python", "FastAPI", "React", "Computer Vision", "Scikit-learn"],
+    repo: "https://github.com/valenfernandez/BiometricDataAnalysis"
   },
   
 ];
