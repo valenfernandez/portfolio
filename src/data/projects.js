@@ -27,5 +27,4 @@ export const projects = [
     tech: ["Python", "FastAPI", "React", "Computer Vision", "Scikit-learn"],
     repo: "https://github.com/valenfernandez/BiometricDataAnalysis"
   },
-  
 ];
