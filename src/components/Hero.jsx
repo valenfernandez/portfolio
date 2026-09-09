@@ -11,7 +11,7 @@ function Hero() {
         </div>
 
         <div className="hero-text-col">
-          <p className="hero-eyebrow">Hello, I'm</p>
+          <p className="hero-eyebrow">Hello world, I'm</p>
           <h1 className="hero-name">Valentina Fernandez</h1>
           <p className="hero-title">Enterprise Technology Architect · Cloud &amp; AI @ Accenture</p>
           <p className="hero-desc">
