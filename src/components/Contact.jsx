@@ -2,7 +2,7 @@ function Contact() {
   const links = [
     {
       label: "Email",
-      value: "valen.fernandez.montenegro@gmail.com",
+      value: "",
       href: "mailto:valen.fernandez.montenegro@gmail.com",
       icon: "✉",
     },
