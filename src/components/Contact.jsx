@@ -1,13 +1,47 @@
+function Contact() {
+  const links = [
+    {
+      label: "Email",
+      value: "valen.fernandez.montenegro@gmail.com",
+      href: "mailto:valen.fernandez.montenegro@gmail.com",
+      icon: "✉",
+    },
+    {
+      label: "LinkedIn",
+      value: "valentina-fernandez-",
+      href: "https://www.linkedin.com/in/valentina-fernandez-/",
+      icon: "in",
+    },
+    {
+      label: "GitHub",
+      value: "valenfernandez",
+      href: "https://github.com/valenfernandez",
+      icon: "</>",
+    },
+  ];
 
-
-function Contact(){
-    return(
-        <section id="contact" class="section">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:valen.fernandez.montenegro@gmail.com">valen.fernandez.montenegro@gmail.com</a></p>
-            <p><a href="https://www.linkedin.com/in/valentina-fernandez-/">LinkedIn</a> | <a href="https://github.com/valenfernandez">GitHub</a></p>
-        </section>
-    )
+  return (
+    <section id="contact" className="section">
+      <div className="section-header">
+        <p className="section-label">Get in touch</p>
+        <h2 className="section-title">Contact</h2>
+      </div>
+      <p style={{ color: "var(--color-text-muted)", marginBottom: "32px", maxWidth: "480px" }}>
+        Open to interesting projects, research collaborations, and new opportunities.
+      </p>
+      <div className="contact-grid">
+        {links.map((link) => (
+          <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer" className="contact-card">
+            <div className="contact-icon">{link.icon}</div>
+            <div>
+              <p className="contact-label">{link.label}</p>
+              <p className="contact-value">{link.value}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  );
 }
 
 export default Contact;

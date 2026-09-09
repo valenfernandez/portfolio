@@ -6,10 +6,11 @@ function ProjectCard({ title, description, tech, repo }) {
       rel="noopener noreferrer"
       className="project-card"
     >
+      <span className="project-card-arrow">↗</span>
       <h3>{title}</h3>
       <p>{description}</p>
       <div className="tech">
-        {tech.map(t => (
+        {tech.map((t) => (
           <span key={t}>{t}</span>
         ))}
       </div>

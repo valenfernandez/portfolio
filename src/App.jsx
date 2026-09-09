@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -11,17 +10,18 @@ import StarsBackground from "./components/StarsBackground";
 function App() {
   return (
     <>
-    <header>
-      <NavBar/>
-    </header>
-      <StarsBackground/>
-      <Hero/>
-      <Skills/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
+      <NavBar />
+      <StarsBackground />
+      <Hero />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+      <footer className="footer">
+        <p>© {new Date().getFullYear()} Valentina Fernandez · Built with React &amp; Vite</p>
+      </footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
